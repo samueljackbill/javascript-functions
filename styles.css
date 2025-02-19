@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+	margin: 30px 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: yellow;
+	color: black;
+}
+
+header h1 {
+	font-weight: bold;
+}
