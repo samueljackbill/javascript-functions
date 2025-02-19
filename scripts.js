@@ -5,3 +5,12 @@ function functionSoma() {
 	
 	alert("O valor de a + b é: " + soma);
 }
+
+document.getElementById('addTaskButton').addEventListener('click', function() {
+	let taskInput = prompt("Qual nova tarefa deseja adicionar?", "Programar");
+	let taskList = document.getElementById('taskList');
+	let newTask = document.createElement('li');
+	newTask.textContent = taskInput;
+	taskList.appendChild(newTask);
+	taskInput.value = '';
+})
