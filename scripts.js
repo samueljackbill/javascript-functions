@@ -14,3 +14,8 @@ document.getElementById('addTaskButton').addEventListener('click', function() {
 	taskList.appendChild(newTask);
 	taskInput.value = '';
 })
+
+document.getElementById('changeTextButton').addEventListener('click', function() {
+	let paragraph = prompt("Informe o novo parágrafo: ");
+	document.getElementById('textParagraph').textContent = paragraph;
+})
